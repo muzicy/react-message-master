@@ -1,0 +1,37 @@
+.welcome {
+	width: 600px;
+	height: 300px;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	background-color: #E6E5E5;
+	margin: 100px auto;
+	color: #150101;
+}
+.welcome h1, h2 {
+	padding-top: 30px;
+	padding-left: 60px;
+}
+
+.welcome ul {	
+	margin-top: 60px;
+	text-align: center;
+	overflow: hidden;
+	font-size: 20px;
+}
+.welcome li {
+	list-style: none;
+	float: left;
+	margin-left: 30px;
+}
+.welcome li:first-child {
+	margin-left: 60px;
+}
+
+.welcome a {
+	display: block;
+	text-decoration: none;
+	padding: 5px 10px;
+	background-color: #06B0AB;
+	color: #fff;
+	border-radius: 5px;
+}

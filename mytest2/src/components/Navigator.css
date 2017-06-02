@@ -1,0 +1,71 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+ 
+.main-nav {
+	position: relative;
+	left: 0;
+	top: 0;
+	width: 100%;
+	background-color: #E6E5E5;
+	color: #150101;	
+}
+.main-nav:after {
+	content: '.';
+	display: block;
+	visibility: hidden;
+	height: 0;
+	clear: both;
+}
+
+.logo {
+	float: left;
+	margin-left: 100px;	
+	border-right: 1px solid #fff;
+	padding: 10px 20px;
+}
+
+.nav-list {
+	float: left;
+}
+
+.nav-list  li {
+	list-style: none;
+	float: left;	
+	border-right: 1px solid #fff;
+}
+.nav-active {
+    background-color: #fff;
+}
+
+.nav-list  li:last-child {
+	border: none;
+}
+
+.nav-list a {
+	text-decoration: none;
+	color: #0D0202;
+	display: block;
+	padding: 10px 20px; 
+
+}
+
+.login {
+	float: right;
+	margin-right: 100px;
+}
+
+.login input[type='text'] {
+	height: 20px;
+	margin-top: 5px
+}
+
+.login button {
+	height: 30px;
+	width: 60px;
+	text-align: center;
+	border-radius: 5px;
+	margin-left: 20px;
+	margin-top: 5px
+}

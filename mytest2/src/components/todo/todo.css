@@ -1,0 +1,36 @@
+.input-todo {
+	display: block;
+	width: 600px;
+	margin: 100px auto 20px;	
+	height: 40px;
+	font-size: 22px;
+	padding: 5px 10px;
+	border-radius: 2px;
+}
+
+.todo-list {
+	width: 600px;
+	margin: 30px auto;
+	padding-left: 25px;	
+	background-color: #E6E5E5;	
+	border-radius: 10px;
+	font-size: 18px;
+}
+
+.todo-list li {	
+	list-style: square;
+	padding: 5px 10px;
+	border-bottom: 1px solid #fff;
+}
+
+.delete-todo {
+	display: none;
+	float: right;
+	text-decoration: none;
+	color: #000;
+
+}
+
+.todo-list li:hover .delete-todo {
+	display: block;
+}

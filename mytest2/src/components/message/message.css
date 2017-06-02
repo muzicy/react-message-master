@@ -1,0 +1,122 @@
+li {
+	list-style: none;
+}
+.message-page {
+	width: 600px;
+	height: 300px;	
+	border-radius: 10px;	
+	margin: 100px auto;
+	color: #150101;
+}
+
+.message-page a.add-msg{
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	font-size: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 15px;
+}
+
+.msg-list {
+	margin-top: 30px;
+	background-color: #D6D8CF;
+	border-radius: 5px;
+}
+
+.msg-list p {
+	padding: 10px;
+	border-bottom: 1px solid #fff;
+	font-size: 20px;
+}
+
+.msg-list li {
+	padding: 5px 10px;
+	border-bottom: 1px solid #fff;
+}
+.msg-list li:hover .delete-msg {
+	display: block;
+}
+
+.msg-list li:last-child {
+	border: none;
+}
+.delete-msg {
+	display: none;
+	float: right;
+	margin-bottom: 2px;
+	text-decoration: none;
+	color: #FCFCFC;
+	padding: 2px;
+	border-radius: 3px;
+	background-color: #0C0101;
+}
+.delete-msg:hover {
+    color: #0C0101;
+    background-color: #FCFCFC;
+}
+.msg-page-info {
+	margin-top: 30px;
+	padding: 10px;
+	background-color: #DAD8D8;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.msg-page-info input[type='text'] {	
+	width: 25px;
+	margin :0 10px;
+	text-align: center;
+	padding: 3px;	
+}
+
+.msg-page-info input[type='button'] {
+	padding: 5px 10px;
+	border-radius:5px;
+}
+
+.msg-page-info span {
+	display: inline-block;
+	width: 20px;
+	height: 22px;
+	border-radius: 7px;
+	background-color: #0D0707;
+	color: #fff;
+	margin: 0 5px;
+}
+
+.input-msg {   
+	position: relative;
+	margin-top: 20px;			
+	overflow: hidden;
+	animation: tanimation 1.5s;
+	-webkit-animation: tanimation 1.5s;	
+}
+
+.input-msg textarea {
+	width: 500px;
+	height: 80px;	
+	font-size: 16px;
+	padding: 10px 10px;
+	resize: none;
+}
+
+.input-msg button {
+	position: absolute;
+	right: 0;
+	bottom: 5px;
+	padding: 5px 10px;
+} 
+@keyframes tanimation {
+	0% {
+		height: 0;
+	}
+	50% {
+		height: 40px;
+	}	
+
+	100% {
+		height: 80px;
+	}
+}
